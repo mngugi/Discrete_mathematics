@@ -4,5 +4,7 @@ def is_factor(i, j):
     else:
         return False
 
-print(is_factor(int(input()), int(input()))) 
+i = int(input('Enter the first number: '))
+j = int(input('Enter the second number: '))
 
+print(is_factor(i, j))
