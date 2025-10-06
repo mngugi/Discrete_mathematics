@@ -6,3 +6,11 @@ except ZeroDivisionError:
     print("Invalid fraction")
 
 
+z = complex(input("Enter a complex number: "))
+print(z)
+
+try:
+    z = complex(input("Enter a complex number: "))
+except ValueError:
+    print("Invalid complex number")
+    
